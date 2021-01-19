@@ -134,10 +134,10 @@ def scorekeeper():
                 tkinter.messagebox.showinfo("O wins","Congrats O!!")
                 reset()
                 break
-        if flag == 9:
-            tkinter.messagebox.showinfo("Tie","It's a tie!!")
-            reset()
-            break
+    if flag == 9:
+        tkinter.messagebox.showinfo("Tie","It's a tie!!")
+        reset()
+        return
 
      
     # RESET & NEW GAME BUTTON FEATURE
